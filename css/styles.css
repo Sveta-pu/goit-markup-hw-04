@@ -132,6 +132,25 @@ img {
 
 /* <!-- ефективні рішення для вашого бізнесу та кнопка --> */
 
+.baner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  padding: 188px 0;
+}
+
 .hero-section {
   background-color: #2e2f42;
   display: flex;
