@@ -434,3 +434,23 @@ img {
 .portfolio-box:hover .overlay-card {
   transform: translateY(0);
 }
+
+.footer-container {
+  display: inline-flex;
+  gap: 120px;
+  padding: 0;
+  margin-left: 156px;
+}
+.social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.social-list {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
