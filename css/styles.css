@@ -254,6 +254,28 @@ img {
 
 /* Команда   */
 
+.team-icon-link {
+  color: #f4f4fd;
+}
+
+.team-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  margin: 8px 16px 32px 16px;
+}
+
+.team-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
 .team {
   background: #f4f4fd;
   flex-direction: column;
