@@ -291,7 +291,7 @@ img {
 
 .team-icon-link:hover,
 .team-icon-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .team-icon-list {
@@ -499,8 +499,6 @@ img {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
-  /* gap: 120px; */
-  /* padding: 0; */
   margin-left: 156px;
 }
 
@@ -516,6 +514,11 @@ img {
   display: flex;
   gap: 16px;
   margin-top: 8px;
+}
+
+.social-item {
+  width: 40px;
+  height: 40px;
 }
 
 .social-links {
@@ -540,6 +543,7 @@ img {
   width: 24px;
   height: 24px;
 }
+
 .footer-icon-svg {
   fill: #f4f4fd;
 }
