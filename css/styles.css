@@ -474,6 +474,7 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   padding: 40px 32px;
+  position: absolute;
 }
 
 .portfolio-box {
