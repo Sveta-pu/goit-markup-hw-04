@@ -505,7 +505,7 @@ img {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
-  margin-left: 156px;
+  /* margin-left: 156px; */
 }
 
 .social-title {
@@ -529,6 +529,8 @@ img {
 
 .social-links {
   display: flex;
+  gap: 16px;
+  flex-direction: column;
   align-items: baseline;
   margin-right: 120px;
 }
