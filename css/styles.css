@@ -391,6 +391,10 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+:root {
+  --overlay-text-color: #f4f4fd;
+}
+
 .portfolio-item:hover,
 .portfolio-item:focus-within {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -422,8 +426,6 @@ img {
 .portfolio-box {
   position: relative;
   overflow: hidden;
-  padding: 0;
-  border: 0;
 }
 
 .portfolio-name {
@@ -489,20 +491,14 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-box:hover .overlay-text {
-  transform: translateY(0);
+.portfolio-box:hover .overlay-text,
+.portfolio-box:focus-within .overlay-text {
+  transform: translateY(0%);
 }
 
-.portfolio-box {
-  position: relative;
-  overflow: hidden;
-  padding: 0;
-  border: 0;
-}
-
-.portfolio-box:hover .overlay-card {
+/* .portfolio-box:hover .overlay-card {
   transform: translateY(0);
-}
+} */
 
 .footer-container {
   display: flex;
