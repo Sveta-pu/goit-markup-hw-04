@@ -40,6 +40,8 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -126,6 +128,10 @@ img {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+.hero-button {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
@@ -215,6 +221,7 @@ img {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  border: 1px solid #8e8f99;
 }
 
 .focus-container {
@@ -459,4 +466,10 @@ img {
   display: flex;
   gap: 16px;
   margin-top: 8px;
+}
+
+.social-links {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }
