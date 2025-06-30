@@ -496,17 +496,18 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover .overlay-card,
+/* .portfolio-item:hover .overlay-card,
 .portfolio-item:focus .overlay-card {
   transform: translateY(0%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
 
 .portfolio-item:hover .portfolio-item:focus {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(0%);
 }
 
 .footer-container {
@@ -538,7 +539,6 @@ img {
 .social-links {
   display: flex;
   gap: 16px;
-  flex-direction: column;
   align-items: baseline;
   margin-right: 120px;
 }
