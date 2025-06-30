@@ -464,7 +464,9 @@ img {
   margin-bottom: 16px;
 }
 
-.overlay-card {
+/* .overlay-card  */
+
+.portfolio-box {
   position: absolute;
   top: 0;
   left: 0;
