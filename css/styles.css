@@ -513,6 +513,7 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  margin-left: 125px;
 }
 
 .footer-column {
@@ -541,9 +542,13 @@ img {
 
 .social-links {
   display: flex;
-  gap: 16px;
-  align-items: baseline;
-  margin-right: 120px;
+  /* gap: 16px; */
+  flex-direction: column;
+
+  /* justify-content: center; */
+  /* flex-wrap: wrap;
+  
+  margin-top: 8px; */
 }
 
 .social-link {
