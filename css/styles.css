@@ -464,6 +464,11 @@ img {
   margin-bottom: 16px;
 }
 
+.portfolio-img {
+  position: relative;
+  overflow: hidden;
+}
+
 .overlay-text {
   font-size: 16px;
   line-height: 1.5;
