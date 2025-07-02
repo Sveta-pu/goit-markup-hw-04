@@ -431,7 +431,7 @@ img {
   overflow: hidden;
 }
 
-.portfolio-box-text {
+.ortfolio-box-textp {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -521,7 +521,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-left: 125px;
 }
 
 .footer-column {
