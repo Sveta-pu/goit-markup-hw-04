@@ -112,8 +112,11 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   position: relative;
-  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active {
+  color: #404bbf;
 }
 
 .active::after {
@@ -305,7 +308,7 @@ img {
   justify-content: center;
   gap: 24px;
   align-items: center;
-  margin: 8px 16px 32px 16px;
+  margin-top: 8px;
 }
 
 .team-icon {
@@ -428,6 +431,11 @@ img {
   overflow: hidden;
 }
 
+.portfolio-box-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
@@ -526,7 +534,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 
 .social-list {
@@ -542,13 +550,7 @@ img {
 
 .social-links {
   display: flex;
-  /* gap: 16px; */
   flex-direction: column;
-
-  /* justify-content: center; */
-  /* flex-wrap: wrap;
-  
-  margin-top: 8px; */
 }
 
 .social-link {
